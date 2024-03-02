@@ -38,6 +38,27 @@ npm install tsconfig-paths-webpack-plugin --save-dev
 4. resolve bölümünün plugins dizisini içerdiğinden emin olun.
 5. plugins dizisine new TsconfigPathsPlugin() satırını ekleyin.
 
+```
+"Üst tarafa eklenecek kısım"
+const TsconfigPathsPlugin = require('tsconfig-paths-webpack-plugin');
+
+"pluginsden sonra çağıralacak kısım"
+module.exports = function (webpackEnv) {
+...
+  return {
+  ...
+    resolve: {
+      ...
+      plugins: [
+         ...
+         // add following line
+         new TsconfigPathsPlugin(),
+      ]
+    }
+  }
+}
+```
+
 ## Kaynaklar
 
 [medium](https://medium.com/@umerfaheem67/configuring-typescript-path-alias-in-react-using-tsconfig-paths-webpack-plugin-dbb1b6644bdf)
