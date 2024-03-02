@@ -2,8 +2,8 @@
 
 ## tsconfig.json dosyasının yapılandırılması
 
-**baseUrl:Tüm modül yollarının başlayacağı temel dizini belirtir.
-**paths:Örnek olarak "@/" ile başlayan yolların src ve dist klasörleri altındaki dosyaları içerdiği anlamına gelir.
+1. baseUrl:Tüm modül yollarının başlayacağı temel dizini belirtir.
+2. paths:Örnek olarak "@/" ile başlayan yolların src ve dist klasörleri altındaki dosyaları içerdiği anlamına gelir.
 
 ```
 {
@@ -37,3 +37,8 @@ npm install tsconfig-paths-webpack-plugin --save-dev
 3. Yapılandırma içinde çözümleme bölümünü bulun
 4. resolve bölümünün plugins dizisini içerdiğinden emin olun.
 5. plugins dizisine new TsconfigPathsPlugin() satırını ekleyin.
+
+## Kaynaklar
+
+[medium](https://medium.com/@umerfaheem67/configuring-typescript-path-alias-in-react-using-tsconfig-paths-webpack-plugin-dbb1b6644bdf)
+[stackoverflow](https://stackoverflow.com/questions/77314336/always-use-alias-for-automatic-imports)
