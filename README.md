@@ -2,8 +2,8 @@
 
 ## tsconfig.json dosyasının yapılandırılması
 
-baseUrl:Tüm modül yollarının başlayacağı temel dizini belirtir.
-paths:Örnek olarak "@/" ile başlayan yolların src ve dist klasörleri altındaki dosyaları içerdiği anlamına gelir.
+**baseUrl:Tüm modül yollarının başlayacağı temel dizini belirtir.
+**paths:Örnek olarak "@/" ile başlayan yolların src ve dist klasörleri altındaki dosyaları içerdiği anlamına gelir.
 
 ```
 {
@@ -22,7 +22,7 @@ paths:Örnek olarak "@/" ile başlayan yolların src ve dist klasörleri altınd
 }
 ```
 
-Otomatik olarak @/ yolu import edebilmek içinde vscode'da
+Otomatik olarak "@/" yolunu import edebilmek içinde vscode'da
 "import module specifier" ayarlarını yapılandırmak gerekiyor.
 ![noneRelative](public/non-relative.png)
 
