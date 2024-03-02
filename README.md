@@ -24,7 +24,7 @@ paths:Örnek olarak "@/" ile başlayan yolların src ve dist klasörleri altınd
 
 Otomatik olarak @/ yolu import edebilmek içinde vscode'da
 "import module specifier" ayarlarını yapılandırmak gerekiyor.
-![noneRelative](public/none-relative.png)
+![noneRelative](public/non-relative.png)
 
 ## tsconfig-paths-webpack-plugin kurulumu
 
