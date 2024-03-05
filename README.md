@@ -29,7 +29,7 @@ Otomatik olarak "@/" yolunu import edebilmek içinde vscode'da
 ## tsconfig-paths-webpack-plugin kurulumu
 
 ```bash
-npm install tsconfig-paths-webpack-plugin --save-dev
+npm install --save-dev tsconfig-paths-webpack-plugin
 ```
 
 1. node_modules/react-scripts/config/webpack.config.js dosyasını açın,
